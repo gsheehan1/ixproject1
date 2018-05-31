@@ -1,0 +1,19 @@
+
+<ion-header>
+
+<ion-navbar>
+    <ion-title>{{charity.name}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <p>{{charity.description}}</p>
+
+  <button ion-button>Donate NOW!</button>
+
+    <span ion-button (click)="navigateToBrowse()" class="button">Back To Browse</span>
+
+</ion-content>

@@ -1,0 +1,65 @@
+<ion-header>
+    <ion-navbar>
+      <ion-title style="color: firebrick">
+        Create a new account
+      </ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content padding>
+
+  
+    <ion-list inset>
+  
+      <ion-item>
+        <ion-label floating class="password">Create Username</ion-label>
+        <ion-input type="text" [(ngModel)] = "username"></ion-input>
+      </ion-item>
+    
+      <ion-item>
+        <ion-input type="password" placeholder="Create Password" id="password"></ion-input>
+      </ion-item>
+<br>
+<h1 style="color: firebrick"> Tell Us About Yourself</h1>
+<br>
+     
+            
+          <ion-item>
+              <ion-label floating class="email">Email</ion-label>
+            <ion-input type="email" name="email" [(ngModel)] = "email"></ion-input>
+
+            </ion-item>
+          
+          <br>
+          <ion-item>
+              <ion-label floating class="tel">Phone Number</ion-label>
+          <ion-input type="tel" name="usrtel"[(ngModel)] = "phone"></ion-input>
+          </ion-item>
+          <ion-item>
+          <ion-label floating class="gender">Gender</ion-label>
+      <ion-input type="gender" name="gender"[(ngModel)] = "gender"></ion-input>
+    </ion-item>
+<br>
+      <p>What is your Nationality?</p>
+  
+      <ion-item>
+        <label for="country">Country</label>
+        <ion-input type="country" name="country"[(ngModel)] = "country"></ion-input>
+
+      </ion-item>
+
+
+      <p>Birthday</p>
+        <ion-item>
+            <ion-input type="date" name="bday" [(ngModel)] = "bday"></ion-input>
+          
+      </ion-item>
+
+      <ion-item>
+        <span ion-button (click)="navigateToProfile()" class="button">Create Profile</span>
+      </ion-item>
+
+    </ion-list>
+      </ion-content>
+
+

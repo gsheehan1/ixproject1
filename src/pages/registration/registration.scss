@@ -1,0 +1,22 @@
+page-registration {
+
+   p {
+       color: firebrick
+   }
+   .button {
+       color: whitesmoke;
+       background-color: steelblue;
+       border: 1px solid white;
+       border-radius: 4px;
+       font-size: 16px;
+       margin: 4px 2px; 
+
+   }
+   .button:hover {
+    background-color: firebrick;
+    color: white;
+   }
+   span.buttons {
+       display: block;
+   }
+}

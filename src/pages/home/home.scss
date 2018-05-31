@@ -1,3 +1,41 @@
 page-home {
 
+    ion-title {
+        text-align: center;
+        text-color: "primary";
+    }
+   h1 {
+       color: firebrick;
+       text-align: center;
+
+   }
+   .button {
+    color: whitesmoke;
+    background-color: steelblue;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 4px 2px; 
+    clear: right;
+
 }
+.button:hover {
+ background-color: firebrick;
+ color: white;
+ align-content: center;
+}
+
+img {
+    width: 80%;
+    text-align: center;
+
+}
+.thumbnail {
+    width: 50%;
+    align-content: center;
+    margin: auto;
+}
+
+
+}
+
